@@ -17,7 +17,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         messageContainer.textContent = "Login realizado com sucesso!";
         messageContainer.style.display = 'block'; 
 
-        window.location.href = "./apresentar.html"; 
+        window.location.href = "./index.html"; 
     } else {
         messageContainer.classList.add('error-message');
         messageContainer.classList.remove('success-message');
