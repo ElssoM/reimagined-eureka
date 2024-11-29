@@ -353,3 +353,8 @@ footer a:hover {
 .news-item a:hover {
   background-color: #0056b3;
 }
+
+#logo{
+width: 100px;
+height: 100px;
+}

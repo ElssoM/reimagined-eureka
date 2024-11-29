@@ -24,7 +24,7 @@ if (sessionStorage.getItem("animationPlayed")) {
   });
   
 
-  const newsContainer = document.getElementById('news-container');
+const newsContainer = document.getElementById('news-container');
 const apiKey = '78b348cc2a7c44218a2691f7869093b1'; // Substitua pela sua chave da API
 
 async function fetchNews() {
